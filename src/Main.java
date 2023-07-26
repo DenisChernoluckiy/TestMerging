@@ -18,5 +18,27 @@ public class Main {
         System.out.println("there's feature");
         System.out.println("there's feature");
         System.out.println("there's feature");
+
+        System.out.println("SOME LOGIC HERE");
+        System.out.println("SOME LOGIC HERE");
+        System.out.println("SOME LOGIC HERE");
+        System.out.println("SOME LOGIC HERE");
+        System.out.println("SOME LOGIC HERE");
+        System.out.println("SOME LOGIC HERE");
+
+        if (check(true)) {
+            System.out.printf("true");
+        }
+    }
+
+    private static boolean check(Boolean a) {
+        if (Boolean.TRUE.equals(a)) {
+            System.out.printf("true");
+            return a;
+        }
+        else {
+            System.out.printf("false");
+            return a;
+        }
     }
 }
